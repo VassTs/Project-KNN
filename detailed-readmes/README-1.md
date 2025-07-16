@@ -10,8 +10,8 @@
 Για να τρέξετε την main:
 * Μεταφέρεστε στο directory που βρίσκεται το Makefile.
 * Εκτελείτε την εντολή: make
-* Εκτελείτε την εντολή: chmod +x run_first_main.sh
-* Εκτελείτε την εντολή: ./run_first_main.sh
+* Εκτελείτε την εντολή: chmod +x scripts/run_first_main.sh
+* Εκτελείτε την εντολή: ./scripts/run_first_main.sh
 
 Για να τρέξετε τα test:
 * Μεταφέρεστε στο directory που βρίσκεται το Makefile.
