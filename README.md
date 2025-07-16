@@ -2,7 +2,7 @@
 
 ## Overview
 
-Implementation and extension of the approximate K‑NN graph construction challenge from [SIGMOD 2023’s Programming Contest](https://people.cs.rutgers.edu/~dd903/sigmodpc2023/index.html), developed across three phases:
+Implementation and extension of the approximate K‑NN graph construction challenge from [SIGMOD 2023’s Programming Contest](https://people.cs.rutgers.edu/~dd903/sigmodpc2023/index.html), developed across three phases with full test coverage:
 1. Core Vamana algorithm implementation  ([Subramanya et al., 2019](https://dl.acm.org/doi/abs/10.5555/3454287.3455520))  
 2. Filtered extensions for label-constrained search ([Gollapudi et al., 2023](https://dl.acm.org/doi/10.1145/3543507.3583552))
 3. Performance optimizations via parallelization and memory-efficient indexing
