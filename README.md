@@ -98,7 +98,7 @@ Executes the **FilteredVamana** algorithm. It can be run in three ways:
    ```
    Example execution:
    ```bash
-   ./bin/filtered_main ./filtered_config.txt
+   ./bin/filtered_main ./config-files/filtered_config.txt
    ```
 
 ### `stitched_main`

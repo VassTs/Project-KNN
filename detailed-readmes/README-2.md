@@ -1,10 +1,10 @@
 # Project-KNN (2o Παραδοτέο)
 
-Θεοδοσία Παπαδήμα 1115202000162  sdi2000162@di.uoa.gr
+[Θεοδοσία Παπαδήμα](https://github.com/sulpap)
 
-Γιώργος Κορύλλος 1115202100069  sdi2100069@di.uoa.gr
+[Γιώργος Κορύλλος](https://github.com/GeorgeKorillos)
 
-Βασιλική Τσαντήλα 1115201800199  sdi1800199@di.uoa.gr
+[Βασιλική Τσαντήλα](https://github.com/VassTs)
 
 ### Οδηγίες εκτέλεσης
 ΣΗΜΑΝΤΙΚΟ: όλα θα εκτελούνται από το directory που βρίσκεται το Makefile.
@@ -69,7 +69,7 @@ filtered_main:
                     base_file = ./datasets/smallscale/dummy-data.bin
                     queries_file = ./datasets/smallscale/dummy-queries.bin
                     groundtruth_file = ./datasets/smallscale/gt_k=100.bin
-        Π.χ.: ./bin/filtered_main ./filtered_config.txt
+        Π.χ.: ./bin/filtered_main ./config-files/filtered_config.txt
         Μπορείτε να βάλτε πολλά configurations όμως θα πρέπει να βάζετε το σύμβολο '#' μπροστά από τις γραμμές τους και να βγάζετε το'#' μόνο από το configuration που θέλετε να χρησιμοποιήσετε. H σειρά και η θέση των παραμέτρων δεν έχουν σημασία, ούτε τα whitespaces, αρκεί να είναι στην ίδια γραμμή.
         Για παράδειγμα, αυτό είναι δεκτό:
                                         k = 100
@@ -103,7 +103,7 @@ stitched_main:
                     base_file = ./datasets/smallscale/dummy-data.bin
                     queries_file = ./datasets/smallscale/dummy-queries.bin
                     groundtruth_file = ./datasets/smallscale/gt_k=100.bin
-        Π.χ.: ./bin/stitched_main ./stitched_config.txt
+        Π.χ.: ./bin/stitched_main ./config-files/stitched_config.txt
         Μπορείτε να βάλτε πολλά configurations όμως θα πρέπει να βάζετε το σύμβολο '#' μπροστά από τις γραμμές τους και να βγάζετε το'#' μόνο από το configuration που θέλετε να χρησιμοποιήσετε. H σειρά και η θέση των παραμέτρων δεν έχουν σημασία, ούτε τα whitespaces, αρκεί να είναι στην ίδια γραμμή.
         Για παράδειγμα, αυτό είναι δεκτό:
                                         k = 100
