@@ -53,7 +53,7 @@ Generates the graph and map using the **StitchedVamana** algorithm without query
 
 **Usage:**
 ```bash
-./bin/stitched_main_graph <L> <R> <a> <t> <base_file_path>
+./bin/stitched_main_graph <L> <R> <a> <R_stitched> <base_file_path>
 ```
 Example:
 ```bash
@@ -111,8 +111,8 @@ A bash script `testing.sh` is provided to automate testing and print results to 
 
 **Usage:**
 ```bash
-chmod +x ./testing.sh
-./testing.sh
+chmod +x scripts/testing.sh
+./scripts/testing.sh
 ```
 
 ---
